@@ -16,7 +16,7 @@ export default [{
   output: [
     {
       name: 'script',
-      dir: `${__dirname}/dist/assets`,
+      dir: `${__dirname}/assets`,
       entryFileNames: 'js/[name].js',
       sourcemap: true,
       format: 'iife',
@@ -35,7 +35,7 @@ export default [{
   output: [
     {
       name: 'script',
-      dir: `${__dirname}/dist/assets`,
+      dir: `${__dirname}/assets`,
       entryFileNames: 'js/[name].min.js',
       sourcemap: false,
       format: 'iife',
@@ -55,7 +55,7 @@ export default [{
   output: [
     {
       name: 'style',
-      dir: `${__dirname}/dist/assets`,
+      dir: `${__dirname}/assets`,
       entryFileNames: 'css/[name].css',
     }
   ],
@@ -75,7 +75,7 @@ export default [{
   output: [
     {
       name: 'style',
-      dir: `${__dirname}/dist/assets`,
+      dir: `${__dirname}/assets`,
       entryFileNames: 'css/[name].min.css',
     }
   ],
