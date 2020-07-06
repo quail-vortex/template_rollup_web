@@ -1,4 +1,4 @@
 node_modules/
-dist/assets/js/*
-dist/assets/css/*
+assets/js/*
+assets/css/*
 !.gitkeep
